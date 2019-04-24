@@ -1,0 +1,3 @@
+[submodule "frontend/frontCrud"]
+	path = frontend/frontCrud
+	url = https://github.com/elchory96/logincrudinsoftar
