@@ -1,0 +1,26 @@
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <small>Correo: test@test.com, Contraseña: 123456</small>
+    <form>
+      <input
+        type="email"
+        id="login"
+        class="fadeIn second"
+        name="email"
+        [(ngModel)]="email"
+        placeholder="Correo"
+      />
+      <input
+        type="password"
+        id="password"
+        class="fadeIn third"
+        name="password"
+        [(ngModel)]="password"
+        placeholder="Contraseña"
+      />
+      <input type="button" (click)="onLogin()" class="fadeIn fourth" value="Iniciar Sesión" />
+    </form>
+  </div>
+</div>
+
+
